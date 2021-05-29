@@ -13,12 +13,14 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	product "github.com/kjunn2000/go-server/data"
+	protos "github.com/kjunn2000/go-microservice-tutorial/currency-server/protos/currency"
+	product "github.com/kjunn2000/go-microservice-tutorial/product-api/data"
 )
 
 type ProductHandler struct {
 	sync.Mutex
 	products product.Products
+	protos   protos.CurrencyClient
 }
 
 func GetProductHandler() *ProductHandler {

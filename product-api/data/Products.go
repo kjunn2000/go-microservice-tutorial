@@ -5,7 +5,6 @@ import (
 	"time"
 
 	"github.com/go-playground/validator"
-	"github.com/kjunn2000/currency/"
 )
 
 // Product defines the structure for an API product

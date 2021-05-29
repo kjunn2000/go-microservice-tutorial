@@ -1,4 +1,4 @@
-module github.com/kjunn2000/currency-server
+module github.com/kjunn2000/go-microservice-tutorial/currency-server
 
 go 1.16
 

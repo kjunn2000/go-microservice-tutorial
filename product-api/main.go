@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"github.com/kjunn2000/go-server/files"
-	"github.com/kjunn2000/go-server/handlers"
+	"github.com/kjunn2000/product-api/files"
+	"github.com/kjunn2000/product-api/handlers"
 )
 
 func main() {
